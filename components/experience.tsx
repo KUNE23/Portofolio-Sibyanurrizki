@@ -9,13 +9,7 @@ interface ExperienceItemProps {
   technologies: string[];
 }
 
-const ExperienceItem = ({
-  title,
-  company,
-  period,
-  description,
-  technologies,
-}: ExperienceItemProps) => {
+const ExperienceItem = ({ title, company, period, description, technologies }: ExperienceItemProps) => {
   return (
     <div className="relative pl-8 not-last:pb-12">
       {/* Timeline line */}
@@ -54,28 +48,19 @@ const ExperienceItem = ({
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2021 - Present",
-      description:
-        "Led the development of enterprise-scale web applications, mentored junior developers, and implemented best practices for code quality and performance optimization.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "MongoDB"],
-    },
-    {
       title: "Full Stack Developer",
-      company: "Digital Innovations Inc",
-      period: "2019 - 2021",
+      company: "Fiver (Freelance)",
+      period: "Jul 2024 - Present",
       description:
-        "Developed and maintained multiple client projects, implemented responsive designs, and integrated third-party APIs for enhanced functionality.",
-      technologies: ["React", "Express.js", "PostgreSQL", "Docker", "Redis"],
+        "Developed and maintained 10+ client projects, encompassing both front-end and back-end solutions. Successfully implemented responsive and intuitive design to ensure optimal user experience across various devices. Integrated third-party APIs for enhanced functionality and streamlined data exchange, meeting specific client requirements.",
+      technologies: ["PHP", "Laravel", "Vue JS", "Node Js", "API", "TypeScript", "Bootstrap"],
     },
     {
-      title: "Frontend Developer",
-      company: "WebTech Studios",
-      period: "2018 - 2019",
-      description:
-        "Created responsive and interactive user interfaces, collaborated with designers, and optimized application performance.",
-      technologies: ["React", "JavaScript", "SASS", "Webpack", "Jest"],
+      title: "Web Development Intern (Digital Marketing Project)",
+      company: "PT Valtekindo Global Intertek",
+      period: "Jan 2025 - Apr 2025",
+      description: "Created responsive and interactive user interfaces for digital marketing projects. Contributed to UI/UX implementation with designers and optimized web application performance.",
+      technologies: ["Excel", "Figma", "VS Code", "HTMl", "CSS", "Javascript"],
     },
   ];
 
@@ -86,12 +71,8 @@ const Experience = () => {
           <Badge variant="secondary" className="mb-4">
             Experience
           </Badge>
-          <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Professional Journey
-          </h2>
-          <p className="text-muted-foreground mt-2 sm:mt-4 text-lg">
-            A timeline of my professional growth and key achievements
-          </p>
+          <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">Career Highlights</h2>
+          <p className="text-muted-foreground mt-2 sm:mt-4 text-lg">Key milestones and contributions throughout my career</p>
         </div>
 
         <div className="relative">
