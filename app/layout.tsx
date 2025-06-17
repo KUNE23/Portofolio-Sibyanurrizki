@@ -9,7 +9,7 @@ const geistSans = Geist({
 });
 export const metadata: Metadata = {
   title: "Alfiansyah Sibyanurrizki",
-  description: "A beautiful portfolio template built with Shadcn UI, Tailwind CSS 4, and Next.js 15",
+  description: "A beautiful portfolio built using Tailwind CSS 4, and Next.js 15",
 };
 
 export default function RootLayout({

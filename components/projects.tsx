@@ -64,10 +64,11 @@ const Projects = () => {
     {
       title: "E-Commerce Platform",
       description: "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
-      image: "/placeholder.svg",
-      technologies: ["Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL"],
+      image: "/e-commerce.png",
+      technologies: ["PHP", "Laravel", "Livewire", "Jestream", "MySql", "Javascript", "Bootstrap"],
       liveUrl: "https://ecommerce-demo.com",
-      githubUrl: "https://github.com/username/ecommerce",
+      githubUrl: "https://github.com/KUNE23/E-Commerce-with-Admin-Page",
+      target: "_blank",
     },
     {
       title: "AI Task Manager",
