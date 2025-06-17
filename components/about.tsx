@@ -5,8 +5,6 @@ import { Download } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
 import { GithubLogo } from "./icons";
-import { Slide } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
 import React from "react";
 
 const About = () => {

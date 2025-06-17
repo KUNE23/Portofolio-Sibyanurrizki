@@ -3,14 +3,13 @@ import { Badge } from "@/components/ui/badge";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="bg-white dark:bg-gray-900 relative ">
+    <section id="contact" className="bg-white dark:bg-gray-900 relative">
       <div className="w-full flex-1 md:text-center">
         <Badge variant="secondary" className="mb-4">
           Contact
         </Badge>
         <div className="container mx-auto">
           <div className="text-center">
-            {/* <p className="font-medium text-blue-500 dark:text-blue-400">Contact us</p> */}
             <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
             <p className="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat</p>
           </div>
@@ -29,7 +28,7 @@ const ContactSection = () => {
               <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
               <p className="mt-2 text-gray-500 dark:text-gray-400">Our friendly team is here to help</p>
               <a href="mailto:sibyanurrizkialfiansyah@gmail.com" className="mt-2 text-blue-800 dark:text-black-400 text-underline">
-                sibyanurrizkialfiansyah@gmail.com <br></br>Let's Started!
+                sibyanurrizkialfiansyah@gmail.com<br></br>Let's Started!
               </a>
             </div>
 
