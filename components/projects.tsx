@@ -74,7 +74,7 @@ const Projects = () => {
       title: "Catatku",
       description:
         "A smart task management application that leverages Artificial Intelligence (AI) to categorize, prioritize, and suggest optimal task scheduling. This project aims to streamline personal and professional productivity through intelligent organization.",
-      image: "/catatku.png",
+      image: "/Catatku.png",
       technologies: ["PHP", "Laravel", "Livewire", "Breeze", "MySql", "Javascript", "TailwindCss", "API"],
       liveUrl: "https://ai-taskmanager.com",
       githubUrl: "https://github.com/KUNE23/Catatku",
