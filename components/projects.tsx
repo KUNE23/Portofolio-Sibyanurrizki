@@ -39,10 +39,10 @@ const ProjectCard = ({ title, description, image, technologies, liveUrl, githubU
         <div className="flex gap-3 mt-auto">
           {liveUrl && (
             <Button variant="default" className="rounded-full" asChild>
-              <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+              {/* <a href={liveUrl} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="mr-1 h-4 w-4" />
                 Live Demo
-              </a>
+              </a> */}
             </Button>
           )}
           {githubUrl && (
@@ -65,34 +65,45 @@ const Projects = () => {
       title: "E-Commerce Platform",
       description: "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
       image: "/e-commerce.png",
-      technologies: ["PHP", "Laravel", "Livewire", "Jestream", "MySql", "Javascript", "Bootstrap"],
+      technologies: ["PHP", "Laravel", "Livewire", "Jestream", "MySql", "Javascript", "Bootstrap", "API"],
       liveUrl: "https://ecommerce-demo.com",
       githubUrl: "https://github.com/KUNE23/E-Commerce-with-Admin-Page",
       target: "_blank",
     },
     {
-      title: "AI Task Manager",
-      description: "Smart task management app that uses AI to categorize, prioritize, and suggest optimal task scheduling.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Python", "TensorFlow", "FastAPI", "MongoDB"],
+      title: "Catatku",
+      description:
+        "A smart task management application that leverages Artificial Intelligence (AI) to categorize, prioritize, and suggest optimal task scheduling. This project aims to streamline personal and professional productivity through intelligent organization.",
+      image: "/catatku.png",
+      technologies: ["PHP", "Laravel", "Livewire", "Breeze", "MySql", "Javascript", "TailwindCss", "API"],
       liveUrl: "https://ai-taskmanager.com",
-      githubUrl: "https://github.com/username/ai-taskmanager",
+      githubUrl: "https://github.com/KUNE23/Catatku",
     },
     {
-      title: "Real-time Chat Application",
-      description: "Feature-rich chat application with real-time messaging, file sharing, and video calls.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Socket.io", "WebRTC", "Node.js", "Redis"],
+      title: "BB-Code Generator",
+      description:
+        "A feature-rich chat application designed for real-time communication. It incorporates functionalities such as real-time messaging, file sharing, and video calls, providing a comprehensive platform for interactive user experiences.",
+      image: "/bbcode.png",
+      technologies: ["HTML", "CSS", "Javascript"],
       liveUrl: "https://chatapp-demo.com",
-      githubUrl: "https://github.com/username/chat-app",
+      githubUrl: "https://github.com/KUNE23/IrRespond",
     },
     {
-      title: "AI Image Generator",
-      description: "An AI image generator that uses a model to generate images based on a prompt.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Next.js", "Tailwind CSS", "Shadcn UI"],
+      title: "InventoryApplication",
+      description:
+        "An AI image generator application that utilizes a sophisticated model to produce images based on user-provided prompts. This project demonstrates the integration of artificial intelligence for creative content generation.",
+      image: "/inventaris.png",
+      technologies: ["PHP", "Laravel", "MySql", "Javascript", "Bootstrap"],
       liveUrl: "https://ai-image-generator.com",
-      githubUrl: "https://github.com/username/ai-image-generator",
+      githubUrl: "https://github.com/KUNE23/InventarisApp",
+    },
+    {
+      title: "KasirApplication",
+      description: "A robust point-of-sale (POS) and inventory management system designed to streamline product data, transactions, and user management. It provides a comprehensive solution for managing sales and stock efficiently.",
+      image: "/kasir.png",
+      technologies: ["PHP", "Laravel", "MySql", "Javascript", "Bootstrap"],
+      liveUrl: "https://ai-image-generator.com",
+      githubUrl: "https://github.com/KUNE23/almart",
     },
   ];
 

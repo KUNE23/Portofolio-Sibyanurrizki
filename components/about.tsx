@@ -32,7 +32,7 @@ const About = () => {
                   View Github
                 </Button>
               </a>
-              <a href="public/Alfiansyah_Sibyanurrizki.pdf" target="_blank" download="Alfiansyah_Sibyanurrizki.pdf">
+              <a href="/Alfiansyah_Sibyanurrizki.pdf" target="_blank" download="Alfiansyah_Sibyanurrizki.pdf">
                 <Button variant="outline" className="rounded-full">
                   <Download />
                   Download CV

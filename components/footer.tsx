@@ -26,7 +26,7 @@ const Footer = () => {
     <footer className="mt-20">
       <div className="max-w-screen-md mx-auto">
         <div className="py-12 flex flex-col justify-start items-center">
-          <p className="font-bold text-sm">
+          <p className="font-bold text-sm text-center">
             Alfiansyah<br></br>Sibyanurrizki
           </p>
           <ul className="mt-6 flex items-center gap-4 flex-wrap">

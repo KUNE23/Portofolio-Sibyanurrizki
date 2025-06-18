@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 const ContactSection = () => {
   return (
     <section id="contact" className="bg-white dark:bg-gray-900 relative">
-      <div className="w-full flex-1 md:text-center">
+      <div className="w-full flex-1 text-center">
         <Badge variant="secondary" className="mb-4">
           Contact
         </Badge>

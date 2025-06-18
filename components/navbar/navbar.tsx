@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="fixed z-10 top-6 inset-x-4 h-14 bg-background border dark:border-slate-700/70 max-w-screen-md mx-auto rounded-full">
       <div className="h-full flex items-center justify-between mx-auto px-3">
-        <p className="font-bold text-sm">
+        <p className="font-bold text-sm text-center">
           Alfiansyah<br></br>Sibyanurrizki
         </p>
 
